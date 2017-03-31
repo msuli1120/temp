@@ -1,4 +1,10 @@
 <?php
+
+  /**
+  * @backupGlobals disabled
+  * @backupStaticAttributes disabled
+  */
+
   require_once "src/Class.php";
 
   class ClassTest extends PHPUnit_Framework_TestCase {
